@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Association des Acadiens-Métis Souriquois (AAMS) Historical Map</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+  
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto-Sans">
+    
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	<div class="page_header">
+		<h1 class="page_title">Association des Acadiens-Métis Souriquois (AAMS) Historical Map</h1>
+	</div>
+	<div class="nav_menu">
+		<a href="index.html">Home</a>
+		<a href="corefamilies.html">Core Families</a>
+		<a href="map.html" class="active">Historical Map</a>
+	</div>
+	
+	<div class="page_contents">
+		<h2>Historical Map</h2>
+		<div class="historical_map">
+			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NhIPJkguE_q-6KjrX58-goEPjNOZ_Pc&ehbc=2E312F" width="100%" height="100%"></iframe>
+		</div>
+	</div>
+	
+	<div class="page_footer">
+		<p>© 2023 Alan Smithee</p>
+	</div>
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  -->
+</body>
+
+</html>
