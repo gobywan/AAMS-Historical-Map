@@ -110,7 +110,7 @@ body {
 	margin: 2em 0;
 	padding: 0.3em 0;
 	font-size: 2.5em;
-	background: #000000aa;
+	background: #000000b5;
 	color: #f3f2e3;
 }
 
@@ -158,10 +158,20 @@ body {
 	padding: 2px 0 2px 10px;
 	border-left: 5px solid #a14258;
 }
+.page_contents h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0px 0px 16px 0px;
+}
 .page_contents p {
 	font-size: 1.2em;
 	font-weight: 400;
 	text-align: left;
+}
+.page_contents img {
+	display: block;
+	float: right;
+	margin: 4px 0px 16px 16px;
 }
 .page_contents .historical_map {
 	/* background: #a5c0fd url("../img/google_maps_temp_image.png") center no-repeat; */
@@ -173,6 +183,26 @@ body {
 	margin: 0 auto;
 	width: 100%;
 }
+.page_contents ul {
+	margin: 0 0 24px 16px;
+	padding: 0 0 0 20px;
+	list-style-type: disc;
+	color: #662c3a;
+	font-size: 1.2em;
+}
+.page_contents ul li {
+	padding-bottom: 2px;
+}
+.page_contents ul li a.family_document {
+	color: #a14258;
+	font-weight: 600;
+}
+/* .page_contents ul a.family_document:before {
+	content: "\2022";
+	display:inline-block;
+	text-decoration: none !important;
+	padding-right: 10px;
+}*/
 .page_footer {
 	background: #a14258;
 	width: auto;
