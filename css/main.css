@@ -175,13 +175,14 @@ body {
 }
 .page_contents .historical_map {
 	/* background: #a5c0fd url("../img/google_maps_temp_image.png") center no-repeat; */
-	border: 2px solid #222222;
-	padding: 10px;
+
+	padding: 0px;
 	height: 700px;
 }
 .page_contents .historical_map iframe {
 	margin: 0 auto;
 	width: 100%;
+	border: 2px solid #222222;
 }
 .page_contents ul {
 	margin: 0 0 24px 16px;
