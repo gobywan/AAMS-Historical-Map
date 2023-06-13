@@ -158,17 +158,37 @@ body {
 	padding: 2px 0 2px 10px;
 	border-left: 5px solid #a14258;
 }
-.page_contents h3 {
+.page_contents h3.family_name {
 	font-size: 1.5em;
 	font-weight: 600;
-	margin: 0px 0px 16px 0px;
+	margin: 0px 0px 9px 0px;
 }
 .page_contents p {
 	font-size: 1.2em;
 	font-weight: 400;
 	text-align: left;
 }
-.page_contents img {
+.page_contents p.family_details {
+  font-size: 1em;
+/*  font-style: italic;*/
+  color: #333333;
+  margin: 0 0 0 0;
+  padding: 3px 9px 4px 7px;
+  background: #88888826;
+  display: inline-block;
+/*  border-radius: 10px;*/
+
+}
+.page_contents p.family_details:before {
+/*  content: "♦";*/
+  content: "‣";
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0 6px 0 0;
+  vertical-align: text-top;
+  color: #22222299;
+}
+.page_contents img.main_page_image {
 	display: block;
 	float: right;
 	margin: 4px 0px 16px 16px;
@@ -185,7 +205,7 @@ body {
 	border: 2px solid #222222;
 }
 .page_contents ul {
-	margin: 0 0 24px 16px;
+	margin: 16px 0 24px 16px;
 	padding: 0 0 0 20px;
 	list-style-type: disc;
 	color: #662c3a;
@@ -197,6 +217,17 @@ body {
 .page_contents ul li a.family_document {
 	color: #a14258;
 	font-weight: 600;
+}
+.page_contents ul li a.family_document:hover {
+  color: #c9536e;
+}
+.page_contents ul li a.family_document img.document_icon{
+  display: inline-block;
+  overflow: auto;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 0 7px 0 0;
 }
 /* .page_contents ul a.family_document:before {
 	content: "\2022";
@@ -212,6 +243,9 @@ body {
 .page_footer p {
 	font-size: 1em;
 	color: #f2f2f2;
+}
+.page_footer p a {
+  color: #f2f2f2;
 }
 /* ==========================================================================
    Helper classes
