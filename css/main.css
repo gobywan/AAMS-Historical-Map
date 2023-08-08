@@ -176,7 +176,8 @@ body {
   padding: 3px 9px 4px 7px;
   background: #88888826;
   display: inline-block;
-/*  border-radius: 10px;*/
+  border-radius: 0px 6px 6px 0px;
+  border-left: 3px solid #22222230;
 
 }
 .page_contents p.family_details:before {
@@ -188,10 +189,20 @@ body {
   vertical-align: text-top;
   color: #22222299;
 }
-.page_contents img.main_page_image {
+.page_contents p a {
+  color: #a14258;
+  font-weight: 600;
+}
+.page_contents div.main_page_image_container {
+  background: #22222259;
+  border-radius: 10px;
 	display: block;
 	float: right;
 	margin: 4px 0px 16px 16px;
+  padding: 8px;
+}
+.page_contents img.main_page_image {
+  border-radius: 8px;
 }
 .page_contents .historical_map {
 	/* background: #a5c0fd url("../img/google_maps_temp_image.png") center no-repeat; */
